@@ -71,7 +71,7 @@
 .mini-title {
   display: none;
 }
-@media screen and (min-width: 10px) and (max-width: 650px) {
+@media screen and (min-width: 10px) and (max-width: 410px) {
   .Alanlar {
     font-size: 20px;
   }
@@ -94,6 +94,35 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 20vh 32vh;
     padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 410px) and (max-width: 650px) {
+  .Alanlar {
+    font-size: 20px;
+  }
+  .items {
+    visibility: hidden;
+  }
+  .mini-title {
+    padding-top: 34px;
+    font-size: 17px;
+    color: rgb(83, 104, 120);
+    display: block;
+  }
+  .element-div {
+    width: 125px;
+    height: 125px;
+  }
+  .grid-container {
+    width: 80%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 32vh;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 80px;
     justify-items: center;

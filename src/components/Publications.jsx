@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import "./styles/Publications.css";
 
 const Publications = ({publicationList}) => {
-  const [sizeToken, setSizeToken] = useState(window.innerWidth < 400 ? 0.98:1)
+  const [sizeToken, setSizeToken] = useState(window.innerWidth < 420 ? 0.98:1)
   window.addEventListener("resize",()=>{
-    window.innerWidth < 400 ?
+    window.innerWidth < 420 ?
     setSizeToken(0.98):setSizeToken(1);
   });
   const [container, setContainer] = useState(document.getElementsByClassName("ulCarousel"))
