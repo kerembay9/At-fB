@@ -16,8 +16,9 @@ const Grid = ({elements}) => {
     elements[5].icon =AllInclusiveIcon
 
   return (
-    <div className='grid' >
-      <h1 className='Çalıştığı Alanlar'>Çalıştığı Alanlar</h1>
+    <div className='Çalıştığı Alanlar' >
+      <div style={{marginTop:"80px"}}>
+      <h1 className='grid'>Çalıştığı Alanlar</h1>
       <div className='flex-container'>
       <div className='grid-container'>
         {
@@ -35,6 +36,7 @@ const Grid = ({elements}) => {
                 </div>
             ))
         }
+    </div>
     </div>
     </div>
     </div>

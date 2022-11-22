@@ -4,9 +4,9 @@ import About from './../images/transparentParent.png';
 
 const AboutUs = () => {
   return (
-    <div style={{width:"94%", marginTop:"80px"}}>
-      <div style={{padding:"3%", paddingTop:"0%"}}>
-      <div className='Kimdir' style={{paddingTop:"3%"}}>
+    <div className='Kimdir' style={{width:"94%" }}>
+      <div style={{padding:"3%", paddingTop:"0%",marginTop:"80px"}}>
+      <div>
         <div>        
         <h2 className='About' >Atıf Bayramoğlu Kimdir ?</h2>
         </div>

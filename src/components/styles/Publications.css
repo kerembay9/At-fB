@@ -13,7 +13,6 @@
 .Yayınlar {
   font-size: 1em;
   width: 100%;
-  padding-top: 5%;
   padding-bottom: 5%;
   overflow: hidden;
   font-family: "Libre Baskerville", serif;
@@ -97,6 +96,7 @@
     margin-left: 10px;
   }
   .pubh1 {
+    padding-top: 20px;
     font-size: 20px;
   }
   .publication-li h2 {
@@ -112,7 +112,7 @@
     background-color: black;
     padding: 0;
     left: 42vw;
-    top: 15vh;
+    top: 25vh;
     width: 25px;
     height: 25px;
     opacity: 1;
@@ -131,7 +131,7 @@
     opacity: 1;
     font-size: 10px;
     right: 42vw;
-    top: 15vh;
+    top: 25vh;
   }
   #prevBtn:hover {
     background-color: black;
@@ -139,9 +139,9 @@
   }
   .publication-li p {
     width: 90%;
-    font-size: 10px;
+    font-size: 15px;
     text-align: justify;
-    line-height: 1;
+    line-height: 1.6;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;

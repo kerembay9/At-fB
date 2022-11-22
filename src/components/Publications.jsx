@@ -29,6 +29,7 @@ let counter = 0;
   
   return (
     <div className='Yayınlar'>
+      <div style={{marginTop:"80px"}}>
         <h1 className='pubh1'>Yayınlar</h1>
         <button onClick={handleClickPrev} id="prevBtn"> &lt;</button>
         <button onClick={handleClickNext} id='nextBtn'> &gt; </button>
@@ -46,6 +47,7 @@ let counter = 0;
         ))}
         </div>
     </ul>
+    </div>
     </div>
 
   )

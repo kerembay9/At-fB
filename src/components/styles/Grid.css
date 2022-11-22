@@ -1,4 +1,4 @@
-.grid {
+.Alanlar {
   width: 100%;
 }
 .flex-container {
@@ -9,11 +9,10 @@
   justify-content: center;
   align-items: center;
 }
-.Alanlar {
+.grid {
   font-family: "Libre Baskerville", serif;
   padding-bottom: 1%;
-  padding-top: 5%;
-  margin-top: 15%;
+  padding-top: 3vh;
   font-size: 2em;
   width: 100%;
 }
@@ -72,7 +71,7 @@
   display: none;
 }
 @media screen and (min-width: 10px) and (max-width: 410px) {
-  .Alanlar {
+  .grid {
     font-size: 20px;
   }
   .items {
@@ -101,7 +100,7 @@
   }
 }
 @media screen and (min-width: 410px) and (max-width: 650px) {
-  .Alanlar {
+  .grid {
     font-size: 20px;
   }
   .items {
@@ -150,7 +149,7 @@
   }
 }
 @media screen and (min-width: 1037px) and (max-width: 1384px) {
-  .Alanlar {
+  .grid {
     padding-top: 8%;
   }
 }

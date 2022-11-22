@@ -4,6 +4,7 @@ import './styles/Biography.css';
 const Biography = () => {
   return (
     <div className='Biyografi'>
+      <div style={{marginTop:"80px"}}>
         <div className='Bio-text'>
         <h2 className='Bio'>Biyografi</h2>
       <p className='Bio-paragraph'>
@@ -39,6 +40,7 @@ elektronik mühendisidir. Küçük oğlu Mert Bayramoğlu
 Hâlihazırda Atatürk Üniversitesi Tıp Fakültesi Acil Tıp
 Anabilim Dalında öğretim üyesi olarak çalışmaktadır.
       </p>
+        </div>
         </div>
     </div>
   )
