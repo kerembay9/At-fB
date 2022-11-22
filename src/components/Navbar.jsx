@@ -8,11 +8,11 @@ import IconButton from '@mui/material/IconButton';
 import CancelSharpIcon from '@mui/icons-material/CancelSharp';
 
 const Navbar = ({sections}) => {
-  const [sidebar, setSidebar] = useState(false)
-  const [menuClick, setMenuClick] = useState(false)
+  const [sidebar, setSidebar] = useState(true)
+  const [menuClick, setMenuClick] = useState(true)
   window.addEventListener("resize",()=>{
-    window.innerWidth > 1380 ?
-    setSidebar(true):setSidebar(false)
+    window.innerWidth < 1380 ?
+    setSidebar(false):setSidebar(true)
   });
     const sectionsLength = sections.length;
     const handleClick = () =>{

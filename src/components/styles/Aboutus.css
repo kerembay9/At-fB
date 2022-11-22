@@ -41,20 +41,12 @@
   .About {
     padding-top: 10%;
   }
-  .About-paragraph {
-    font-size: 15px;
-    line-height: 1.5;
-  }
   .image-paragraph {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: between;
     align-items: center;
-  }
-  .About-paragraph-extra {
-    font-size: 15px;
-    line-height: 1.5;
   }
 }
 
