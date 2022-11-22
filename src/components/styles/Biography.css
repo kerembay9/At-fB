@@ -1,0 +1,32 @@
+.Biyografi {
+  padding-top: 2%;
+  width: 100%;
+
+  display: flex;
+  justify-content: left;
+  color: white;
+
+  background: #ffffff;
+}
+
+.Bio-text {
+  padding: 5%;
+}
+.Bio-paragraph {
+  margin: 0 20px 0 20px;
+  font-size: x-large;
+  text-align: justify;
+  line-height: 2;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: black;
+  margin: 0 20px 0 20px;
+}
+.Bio {
+  font-size: 2em;
+  text-align: center;
+  line-height: 2.2;
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  color: black;
+}

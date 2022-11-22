@@ -1,0 +1,69 @@
+.Kimdir {
+  width: 100%;
+  margin: 0 20px 0 20px;
+}
+.About-extra {
+  margin: 0 20px 0 20px;
+}
+.image-paragraph {
+  width: 100%;
+  display: flex;
+  justify-content: between;
+  align-items: center;
+  flex-direction: row;
+}
+.About-paragraph {
+  font-size: x-large;
+  text-align: start;
+  line-height: 2.25;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin: 0;
+}
+.About {
+  font-size: 2em;
+  text-align: center;
+  line-height: 3;
+  font-family: "Libre Baskerville", sans-serif;
+  font-style: italic;
+  color: black;
+}
+.About-paragraph-extra {
+  width: 100%;
+  font-size: x-large;
+  text-align: start;
+  line-height: 2.25;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+@media screen and (min-width: 10px) and (max-width: 650px) {
+  .About {
+    padding-top: 10%;
+  }
+  .About-paragraph {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .image-paragraph {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: between;
+    align-items: center;
+  }
+  .About-paragraph-extra {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1358px) {
+  .image-paragraph {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: between;
+    align-items: center;
+  }
+}

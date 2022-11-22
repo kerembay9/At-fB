@@ -1,0 +1,15 @@
+.divcontacts {
+  width: 100%;
+  padding-top: 2%;
+}
+.contacts {
+  font-family: "Libre Baskerville", serif;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contacts a {
+  text-decoration: none;
+  color: black;
+}

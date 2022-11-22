@@ -1,0 +1,88 @@
+.pubdiv {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -2vw;
+}
+.Yayınlar {
+  font-size: 1em;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+  font-family: "Libre Baskerville", serif;
+  color: black;
+  background: #fff;
+}
+.publication-li {
+  list-style-type: none;
+}
+.publication-li a {
+  text-decoration: none;
+  color: black;
+}
+.publication-li h2 {
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 100px;
+  margin-top: 0;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.6;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.publication-li p {
+  font-size: 1.5em;
+  text-align: justify;
+  line-height: 2.2;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#prevBtn {
+  position: relative;
+  color: black;
+  background-color: white;
+  border: 0;
+  border-radius: 50%;
+  transition-duration: 0.4s;
+  width: 100px;
+  height: 100px;
+  padding: 2vh 2vh;
+  z-index: 1;
+  opacity: 0.4;
+  font-size: 4vh;
+  right: 43vw;
+  top: 42vh;
+}
+#prevBtn:hover {
+  background-color: lightgrey;
+  opacity: 0.8;
+}
+#nextBtn {
+  position: relative;
+  color: black;
+  background-color: white;
+  border: 0;
+  left: 43vw;
+  top: 42vh;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  opacity: 0.4;
+  font-size: 4vh;
+  padding: 2vh 2vh;
+}
+#nextBtn:hover {
+  background-color: lightgrey;
+  opacity: 0.8;
+}
