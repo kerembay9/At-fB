@@ -4,10 +4,10 @@ import IconButton from '@mui/material/IconButton';
 
   
 const ScrollButton = () =>{
-  const [visible, setVisible] = useState(window.innerWidth < 400 ? false:true)
+  const [visible, setVisible] = useState(window.innerWidth < 500 ? false:true)
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 50 && window.innerWidth > 400 ){
+    if (scrolled > 50 && window.innerWidth > 500 ){
       setVisible(true)
     } 
     else if (scrolled <= 50){
