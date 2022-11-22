@@ -13,13 +13,9 @@
   font-family: "Libre Baskerville", serif;
   padding-bottom: 1%;
   padding-top: 5%;
+  margin-top: 15%;
   font-size: 2em;
   width: 100%;
-}
-@media screen and (max-width: 1384px) {
-  .Alanlar {
-    padding-top: 8%;
-  }
 }
 .grid-container {
   padding-bottom: 5%;
@@ -29,25 +25,16 @@
   grid-template-rows: 40vh 40vh;
   gap: 1em;
 }
-@media screen and (max-width: 1037px) {
-  .grid-container {
-    padding-bottom: 5%;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 40vh 40vh;
-    gap: 1em;
-  }
+.element {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  align-items: center;
 }
-@media screen and (max-width: 737px) {
-  .grid-container {
-    padding-bottom: 5%;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40vh 40vh;
-    gap: 1em;
-  }
+.element-icon {
+  color: rgb(83, 104, 120);
+  width: 100%;
+  height: 50px;
 }
 .element-div {
   font-family: "Libre Baskerville";
@@ -80,4 +67,61 @@
 }
 .container:hover {
   background-position: left;
+}
+.mini-title {
+  display: none;
+}
+@media screen and (min-width: 10px) and (max-width: 650px) {
+  .Alanlar {
+    font-size: 20px;
+  }
+  .items {
+    visibility: hidden;
+  }
+  .mini-title {
+    padding-top: 34px;
+    font-size: 17px;
+    color: rgb(83, 104, 120);
+    display: block;
+  }
+  .element-div {
+    width: 125px;
+    height: 125px;
+  }
+  .grid-container {
+    width: 80%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 32vh;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    justify-items: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 737px) {
+  .grid-container {
+    padding-bottom: 5%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 40vh;
+    gap: 1em;
+  }
+}
+@media screen and (min-width: 737px) and (max-width: 1037px) {
+  .grid-container {
+    padding-bottom: 5%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh 40vh;
+    gap: 1em;
+  }
+}
+@media screen and (min-width: 1037px) and (max-width: 1384px) {
+  .Alanlar {
+    padding-top: 8%;
+  }
 }

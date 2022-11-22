@@ -6,6 +6,10 @@
   padding: 0;
   margin-left: -2vw;
 }
+.pubh1 {
+  font-family: "Libre Baskerville";
+  font-size: 2em;
+}
 .Yayınlar {
   font-size: 1em;
   width: 100%;
@@ -85,4 +89,72 @@
 #nextBtn:hover {
   background-color: lightgrey;
   opacity: 0.8;
+}
+@media screen and (min-width: 10px) and (max-width: 650px) {
+  .publication-li {
+    max-width: 85%;
+    margin: 0;
+    margin-left: 10px;
+  }
+  .pubh1 {
+    font-size: 20px;
+  }
+  .publication-li h2 {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 100px;
+    margin-top: 0;
+    font-size: 18px;
+  }
+  #nextBtn {
+    color: white;
+    background-color: black;
+    padding: 0;
+    left: 42vw;
+    top: 15vh;
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    font-size: 10px;
+  }
+  #nextBtn:hover {
+    background-color: black;
+    opacity: 1;
+  }
+  #prevBtn {
+    color: white;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    opacity: 1;
+    font-size: 10px;
+    right: 42vw;
+    top: 15vh;
+  }
+  #prevBtn:hover {
+    background-color: black;
+    opacity: 1;
+  }
+  .publication-li p {
+    width: 90%;
+    font-size: 10px;
+    text-align: justify;
+    line-height: 1;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .publication-li h2 {
+    width: 90%;
+    padding-left: 0;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    margin-top: -35px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+  }
 }

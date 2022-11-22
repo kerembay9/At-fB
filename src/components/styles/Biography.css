@@ -30,3 +30,11 @@
   font-style: italic;
   color: black;
 }
+@media screen and (min-width: 10px) and (max-width: 650px) {
+  .Bio-paragraph {
+    font-size: 12px;
+  }
+  .Bio {
+    font-size: 20px;
+  }
+}

@@ -7,7 +7,7 @@ import "./styles/Contact.css";
 const Contact = () => {
   return (
     <div className='divcontacts' >
-        <h1 className='Sosyal Medya' style={{ fontFamily: "Libre Baskerville", fontSize:"2em", color:"black"}}>Sosyal Medya</h1>
+        <h1 className='Sosyal Medya' >Sosyal Medya</h1>
         <div className='contacts'>
         <a href="https://instagram.com/atifbayramoglu?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer"><p className='mediap'><InstagramIcon style={{verticalAlign:"bottom"}}/> Instagram : @atifbayramoglu</p></a>
         <a href="https://www.linkedin.com/in/atif-bayram-68b90265/" target="_blank" rel="noreferrer"><p className='mediap'><LinkedInIcon style={{verticalAlign:"bottom"}}/> LinkedIn</p> </a>

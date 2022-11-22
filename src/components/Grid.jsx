@@ -24,7 +24,8 @@ const Grid = ({elements}) => {
             elements.map((element)=>(
                 <div className='element-div' key={element.id}>
                     <div  className={"item" + element.id}>
-                      <div style={{height:"125px",display:"flex",alignItems:"center"}}>
+                    <p className='mini-title'>{element.title}</p>
+                      <div className="items"style={{height:"125px",display:"flex",alignItems:"center"}}>
                         < element.icon style={{fontSize:"300%",color:"rgb(83, 104, 120)",width:"100%",height:"75px" }}/>
                         </div>
                     <div className='container'>

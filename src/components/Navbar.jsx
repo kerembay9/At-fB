@@ -42,22 +42,22 @@ const Navbar = ({sections}) => {
     <div className='sidebar'>
     <div className='sidebar-menu'>
     <IconButton onClick={handleClick} className="menu">
-    <MenuSharpIcon />
+    <MenuSharpIcon style={{ paddingTop:"5px"}} />
     </IconButton>
     </div>
     <div>
-      <img src={logo} alt="logo-img" style ={{maxWidth:"100%",maxHeight:"10vh", paddingTop:"1vh", paddingLeft:"1vw",  width: "100%" }}/>
+      <img src={logo} alt="logo-img" style ={{maxWidth:"100%",maxHeight:"100%",height:"10vh", paddingTop:"1vh", paddingLeft:"1vw",  width: "100%" }}/>
     </div>
     </div>
     :
     <div className='sidebar'>
     <div className='black-bg'>
     <div>
-    <img src={logowhite} alt="logo-img" style ={{maxWidth:"100%",maxHeight:"10vh", paddingTop:"10px", paddingLeft:"1vw", paddingBottom:"5%", width: "100%", objectFit:"contain"}} onClick={handleClick}/>
+    <img src={logowhite} alt="logo-img" style ={{maxWidth:"100%",maxHeight:"10vh", paddingTop:"15px", paddingLeft:"1vw", paddingBottom:"5%", width: "100%", objectFit:"contain"}} onClick={handleClick}/>
     </div>
       <div className='sidebar-menu'>
     <IconButton onClick={handleClick} className="menu">
-    <CancelSharpIcon style={{color:"white" }}/>
+    <CancelSharpIcon style={{color:"white" ,paddingTop:"5px"}}/>
     </IconButton>
     </div>
     <ul className='navul-sidebar'>

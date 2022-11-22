@@ -1,0 +1,13 @@
+.Footer {
+  width: 100%;
+  height: 8vh;
+  padding-top: 2vh;
+}
+@media screen and (min-width: 10px) and (max-width: 650px) {
+  .Footer {
+    font-size: 10px;
+    width: 100%;
+    height: 8vh;
+    padding-top: 2vh;
+  }
+}

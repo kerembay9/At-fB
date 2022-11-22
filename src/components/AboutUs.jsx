@@ -4,7 +4,7 @@ import About from './../images/transparentParent.png';
 
 const AboutUs = () => {
   return (
-    <div style={{width:"100%"}}>
+    <div style={{width:"94%", marginTop:"80px"}}>
       <div style={{padding:"3%", paddingTop:"0%"}}>
       <div className='Kimdir' style={{paddingTop:"3%"}}>
         <div>        
@@ -12,7 +12,7 @@ const AboutUs = () => {
         </div>
         <div className='image-paragraph'>
         <div >
-            <img src={About} alt="About Us" style ={{width:"100%", maxWidth:"100%",objectFit:"cover", marginBottom:"3px"}}/>
+            <img className="about-image" src={About} alt="About Us" />
         </div>
           <div style={{paddingTop:"2%"}}>
         <p className='About-paragraph'>

@@ -24,8 +24,7 @@ ve Denizli Sarayköy’de 2003 yılına kadar devam etti.
 2003 yılında akademik yolculuğuna geri döndü. Atatürk
 Üniversitesinde Acil Tıp asistanı olarak başladı. 2009
 Yılında Acil Tıp uzmanı oldu. Erzurum Bölge Eğitim ve
-Araştırma Hastanesinde mecburi hizmetini
-tamamladıktan sonra Atatürk Üniversitesine Yardımcı
+Araştırma Hastanesinde mecburi hizmetini tamamladıktan sonra Atatürk Üniversitesine Yardımcı
 doçent olarak 2012 yılında başladı. 2016 yılında doçent,
 2022 yılında profesör oldu. Yüzlerce yayını var:
 endekste olan yayınlar, ulusal yayınlar, ulusal ve
