@@ -120,10 +120,8 @@
     width: 80%;
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 32vh;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 80px;
+    grid-template-rows: 23vh 23vh 23vh;
+    padding-bottom: 133px;
     justify-items: center;
     align-items: center;
   }
