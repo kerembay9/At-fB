@@ -16,6 +16,7 @@
     "builder-react-component": "^0.4.4",
     "framework7": "^7.0.9",
     "framework7-react": "^7.0.9",
+    "gitignore": "^0.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",

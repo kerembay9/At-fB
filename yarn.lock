@@ -5393,6 +5393,7 @@ __metadata:
     css-loader: ^6.7.1
     framework7: ^7.0.9
     framework7-react: ^7.0.9
+    gitignore: ^0.7.0
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
@@ -9138,6 +9139,15 @@ __metadata:
   version: 2.0.6
   resolution: "get-value@npm:2.0.6"
   checksum: 5c3b99cb5398ea8016bf46ff17afc5d1d286874d2ad38ca5edb6e87d75c0965b0094cb9a9dddef2c59c23d250702323539a7fbdd870620db38c7e7d7ec87c1eb
+  languageName: node
+  linkType: hard
+
+"gitignore@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "gitignore@npm:0.7.0"
+  bin:
+    gitignore: bin/gitignore.js
+  checksum: 255a5d80038c93e29bcfdcbbfffad54d8b4117eb5394a961f4a66bf7036065461ef1f5ff0acda6936a99f7e98451d35f53e607c553042ec920175218332d38c9
   languageName: node
   linkType: hard
 
