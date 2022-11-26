@@ -1,0 +1,39 @@
+.slide-div{
+    width: 100vw;
+    height: 100vh;
+    z-index:0;
+}
+.slide-a{
+    width: 100vw;
+    font-size: 10px;
+    z-index:0;
+    text-decoration: none;
+    color: black;
+    
+  }
+.slide-p{
+    width: 90vw;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.7;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    z-index:0;
+
+}
+.slide-h2{
+    width: 90vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    padding-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+    z-index:0;
+
+}

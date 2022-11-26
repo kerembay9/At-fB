@@ -5392,6 +5392,7 @@ __metadata:
     builder-react-component: ^0.4.4
     css-loader: ^6.7.1
     framework7: ^7.0.9
+    framework7-react: ^7.0.9
     react: ^18.2.0
     react-dom: ^18.2.0
     react-icons: ^4.6.0
@@ -5399,6 +5400,7 @@ __metadata:
     react-scroll: ^1.8.8
     scroll-snap: ^4.0.3
     style-loader: ^3.3.1
+    swiper: ^8.4.5
     web-vitals: ^2.1.0
   languageName: unknown
   linkType: soft
@@ -8896,6 +8898,13 @@ __metadata:
   dependencies:
     map-cache: ^0.2.2
   checksum: 1cbbd0b0116b67d5790175de0038a11df23c1cd2e8dcdbade58ebba5594c2d641dade6b4f126d82a7b4a6ffc2ea12e3d387dbb64ea2ae97cf02847d436f60fdc
+  languageName: node
+  linkType: hard
+
+"framework7-react@npm:^7.0.9":
+  version: 7.0.9
+  resolution: "framework7-react@npm:7.0.9"
+  checksum: b618fab2d1f586982be3fcd2c3118b41f4df7012b5ec9acb8dbe669ece5f4ac604115742494d17341d342370561d1788dd1561da3d02c8c1dcfdaeadf4a4d71b
   languageName: node
   linkType: hard
 
@@ -16837,7 +16846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"swiper@npm:^8.1.4":
+"swiper@npm:^8.1.4, swiper@npm:^8.4.5":
   version: 8.4.5
   resolution: "swiper@npm:8.4.5"
   dependencies:

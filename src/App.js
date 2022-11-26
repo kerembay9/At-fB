@@ -9,6 +9,7 @@ import Footer from "./components/Footer.jsx";
 import ScrollButton from "./components/scrollButton.jsx";
 import axios from 'axios';
 import React, {useState, useEffect} from "react";
+import Swipers from './components/swiper';
 
 function App() {
   
@@ -91,22 +92,49 @@ function App() {
   ]
   const sections = ["Kimdir","Biyografi","Çalıştığı Alanlar","Yayınlar","Sosyal Medya"];
   {/* 1: write required sections above*/}
-  return (
-    <div className="App">
-      <div id='Navbar'>
-          <Navbar sections={sections}/>
-      </div>                                            {/* 2: change logo in navbar */}
-          <AboutUs/>                                    {/* 3: add paragraph + image */}
-          <Biography/>
-          <Grid elements={gridElements} />
-      <div id='Contact'>
-          <Publications publicationList={publicationList} />
+
+  let details = navigator.userAgent;
+      
+  /* Creating a regular expression
+  containing some mobile devices keywords
+  to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i;
+  
+  /* Using test() method to search regexp in details
+  it returns boolean value*/
+  let isMobileDevice = regexp.test(details);
+  if (isMobileDevice) {
+    return (
+      <div className="App">
+        <div id='Navbar'>
+            <Navbar sections={sections} />
+        </div>                                            {/* 2: change logo in navbar */}
+            <AboutUs/>                                    {/* 3: add paragraph + image */}
+            <Biography/>
+            <Grid elements={gridElements} />
+            <Swipers publicationList={publicationList} />
+            <Contact/>
+            <Footer/>
+            <ScrollButton/>
       </div>
-          <Contact/>
-          <Footer/>
-          <ScrollButton/>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="App">
+        <div id='Navbar'>
+            <Navbar sections={sections}/>
+        </div>
+            <AboutUs/>
+            <Biography/>
+            <Grid elements={gridElements} />
+            <Publications publicationList={publicationList} />
+            <Contact/>
+            <Footer/>
+            <ScrollButton/>
+      </div>
+    );
+  }
+  
 }
 
 export default App;
