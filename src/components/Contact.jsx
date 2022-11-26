@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='contacts'>
         <a href="https://instagram.com/atifbayramoglu?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer"><p className='mediap'><InstagramIcon style={{verticalAlign:"bottom"}}/> Instagram : @atifbayramoglu</p></a>
         <a href="https://www.linkedin.com/in/atif-bayram-68b90265/" target="_blank" rel="noreferrer"><p className='mediap'><LinkedInIcon style={{verticalAlign:"bottom"}}/> LinkedIn</p> </a>
-        <a ><p className='mediap'><GoogleIcon style={{verticalAlign:"bottom"}}/> atifbay@gmail.com</p></a>
+        <a ><p className='mediap' id="Gmail"><GoogleIcon style={{verticalAlign:"bottom"}}/> atifbay@gmail.com</p></a>
         <a href="https://mobile.twitter.com/atifbay" target="_blank" rel="noreferrer"><p className='mediap'><TwitterIcon style={{verticalAlign:"bottom"}}/> Twitter</p></a>
         </div>
     </div>
