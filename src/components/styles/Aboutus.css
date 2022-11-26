@@ -58,7 +58,7 @@
     margin: 0 20px 0 20px;
   }
   .About-extra {
-    margin: 0 20px 0 20px;
+    margin: 0 20px 0 0;
   }
   .About-paragraph {
     font-size: 13px;
@@ -67,7 +67,7 @@
     font-family: "Montserrat", sans-serif;
     color: black;
     margin: 0;
-    padding-right: 34px;
+    padding-right: 20px;
   }
   .About-paragraph-extra {
     width: 100%;

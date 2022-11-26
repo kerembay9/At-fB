@@ -1,4 +1,5 @@
 .sidebar {
+  z-index:1;
   padding-top: 15px;
   display: flex;
   align-items: center;
@@ -64,6 +65,9 @@
   font-size: 1.5em;
 }
 @media screen and (min-width: 10px) and (max-width: 650px) {
+  .black-bg {
+    z-index: 2;
+  }
   .sidebar {
     width: 390px;
     justify-content: flex-start;

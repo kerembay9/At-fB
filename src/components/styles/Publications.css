@@ -90,6 +90,9 @@
   opacity: 0.8;
 }
 @media screen and (min-width: 10px) and (max-width: 650px) {
+  .Yayınlar {
+   height: 100vh;
+  }
   .publication-li {
     max-width: 85%;
     margin: 0;
@@ -98,14 +101,6 @@
   .pubh1 {
     padding-top: 20px;
     font-size: 20px;
-  }
-  .publication-li h2 {
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 100px;
-    margin-top: 0;
-    font-size: 18px;
   }
   #nextBtn {
     color: white;
@@ -117,10 +112,12 @@
     height: 25px;
     opacity: 1;
     font-size: 10px;
+    display: none;
   }
   #nextBtn:hover {
     background-color: black;
     opacity: 1;
+    display: none;
   }
   #prevBtn {
     color: white;
@@ -132,16 +129,18 @@
     font-size: 10px;
     right: 42vw;
     top: 25vh;
+    display: none;
   }
   #prevBtn:hover {
     background-color: black;
     opacity: 1;
+    display: none;
   }
   .publication-li p {
     width: 90%;
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
-    line-height: 1.6;
+    line-height: 1.7;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -152,7 +151,6 @@
     padding-left: 0;
     margin-right: 50px;
     padding-bottom: 20px;
-    margin-top: -35px;
     font-size: 15px;
     text-align: center;
     line-height: 1.6;
