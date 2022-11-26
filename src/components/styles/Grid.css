@@ -20,6 +20,7 @@
   padding-bottom: 5%;
   width: 80%;
   display: grid;
+  column-gap: 12%;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 40vh 40vh;
   gap: 1em;
@@ -117,8 +118,9 @@
     height: 125px;
   }
   .grid-container {
-    width: 80%;
+    width: 100%;
     display: inline-grid;
+    column-gap: 24%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 23vh 23vh 23vh;
     padding-bottom: 133px;

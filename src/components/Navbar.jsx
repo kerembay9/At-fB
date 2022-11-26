@@ -64,7 +64,7 @@ const Navbar = ({sections}) => {
     <ul className='navul-sidebar'>
         {
             sections.map((section) => (
-            <li style ={{ width: `${1/(sectionsLength+2)*100}%`, cursor: "pointer" }} className='section' key={section}>
+            <li style ={{ width: "100%", cursor: "pointer" }} className='section' key={section}>
               <Link to={section} className="link" spy={true} smooth={true}><button className='buto' onClick={handleClick}><div>{section}</div></button></Link>  
             </li>
         ))}       
