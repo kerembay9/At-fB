@@ -30,9 +30,9 @@
   font-style: italic;
   color: black;
 }
-@media screen and (min-width: 10px) and (max-width: 361px) {
+@media screen and (min-width: 10px) and (max-width: 385px) {
   .Biyografi {
-    height: 140vh;
+    height: 127vh;
   }
   .Bio-paragraph {
     font-size: 12px;
@@ -41,7 +41,7 @@
     font-size: 20px;
   }
 }
-@media screen and (min-width: 362px) and (max-width: 600px) {
+@media screen and (min-width: 386px) and (max-width: 600px) {
   .Biyografi {
     height: 105vh;
   }
