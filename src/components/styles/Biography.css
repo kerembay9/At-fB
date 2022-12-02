@@ -30,7 +30,18 @@
   font-style: italic;
   color: black;
 }
-@media screen and (min-width: 10px) and (max-width: 385px) {
+@media screen and (min-width: 10px) and (max-width: 383px) {
+  .Biyografi {
+    height: 160vh;
+  }
+  .Bio-paragraph {
+    font-size: 12px;
+  }
+  .Bio {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 383px) and (max-width: 385px) {
   .Biyografi {
     height: 127vh;
   }
@@ -41,7 +52,18 @@
     font-size: 20px;
   }
 }
-@media screen and (min-width: 386px) and (max-width: 600px) {
+@media screen and (min-width: 386px) and (max-width: 391px) {
+  .Biyografi {
+    height: 120vh;
+  }
+  .Bio-paragraph {
+    font-size: 12px;
+  }
+  .Bio {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 600px) {
   .Biyografi {
     height: 105vh;
   }

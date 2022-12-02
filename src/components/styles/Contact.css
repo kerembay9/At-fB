@@ -18,13 +18,39 @@
   text-decoration: none;
   color: black;
 }
-@media screen and (min-width: 10px) and (max-width: 650px) {
+@media screen and (min-width: 10px) and (max-width: 376px) {
+  .divcontacts {
+    height: 20vh;
+    width: 100%;
+    padding-top: 2%;
+  }
   .mediap {
     width: 150px;
     padding-left: 25px;
   }
-  #Gmail{
-    padding-left:7px;
+  #Gmail {
+    padding-left: 7px;
+  }
+  .Sosyal {
+    font-family: "Libre Baskerville";
+    font-size: 20px;
+    color: #000;
+  }
+  .contacts {
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4vh 4vh;
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 650px) {
+  .mediap {
+    width: 150px;
+    padding-left: 25px;
+  }
+  #Gmail {
+    padding-left: 7px;
   }
   .Sosyal {
     font-family: "Libre Baskerville";
