@@ -2,7 +2,6 @@ import './App.css';
 import Navbar from "./components/Navbar.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import Biography from "./components/Biography.jsx";
-import Publications from "./components/Publications.jsx";
 import Contact from "./components/Contact.jsx";
 import Grid from "./components/Grid.jsx";
 import Footer from "./components/Footer.jsx";
@@ -91,7 +90,6 @@ function App() {
     }
   ]
   const sections = ["Kimdir","Biyografi","Çalıştığı Alanlar","Yayınlar","Sosyal Medya"];
-  {/* 1: write required sections above*/}
 
   let details = navigator.userAgent;
       
@@ -102,6 +100,7 @@ function App() {
   
   /* Using test() method to search regexp in details
   it returns boolean value*/
+  console.log("regexp:",regexp)
   let isMobileDevice = regexp.test(details);
   if (isMobileDevice) {
     return (
@@ -112,7 +111,7 @@ function App() {
             <AboutUs/>                                    {/* 3: add paragraph + image */}
             <Biography/>
             <Grid elements={gridElements} />
-            <Swipers publicationList={publicationList} />
+            <Swipers publicationList={publicationList} isMobileDevice={true} />
             <Contact/>
             <Footer/>
             <ScrollButton/>
@@ -127,7 +126,7 @@ function App() {
             <AboutUs/>
             <Biography/>
             <Grid elements={gridElements} />
-            <Publications publicationList={publicationList} />
+            <Swipers publicationList={publicationList} isMobileDevice={false}/>
             <Contact/>
             <Footer/>
             <ScrollButton/>

@@ -11,7 +11,6 @@ const Navbar = ({sections}) => {
   const [sidebar, setSidebar] = useState(window.innerWidth < 1380 ?false:true)
   const [menuClick, setMenuClick] = useState(true)
   window.addEventListener("resize",()=>{
-    console.log(window.innerWidth);
     window.innerWidth < 1380 ?
     setSidebar(false):setSidebar(true)
   });
@@ -23,7 +22,7 @@ const Navbar = ({sections}) => {
     sidebar ?
     <div className='Navbar' >
       <div>
-      <img src={logo} alt="logo-img" style ={{maxWidth:"100%",maxHeight:"10vh", paddingTop:"1vh", paddingLeft:"1vw" }}/>
+      <img src={logo} alt="logo-img" style ={{maxWidth:"90%",maxHeight:"10vh",paddingTop:"10px", paddingLeft:"1vw" }}/>
       </div>
        <div className='navcontainer'>
        <ul className='navul'>  

@@ -13,7 +13,6 @@
 .Yayınlar {
   font-size: 1em;
   width: 100%;
-  padding-bottom: 5%;
   overflow: hidden;
   font-family: "Libre Baskerville", serif;
   color: black;
@@ -91,7 +90,7 @@
 }
 @media screen and (min-width: 10px) and (max-width: 650px) {
   .Yayınlar {
-   height: 100vh;
+    height: 100vh;
   }
   .publication-li {
     max-width: 85%;
